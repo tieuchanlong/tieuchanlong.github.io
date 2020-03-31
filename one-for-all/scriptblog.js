@@ -4,10 +4,10 @@
     } else {
         document.getElementById("topbar").style.marginTop = "-270px";
     }
-    if (document.getElementById("content").style.paddingTop == "10px") {
-        document.getElementById("content").style.paddingTop = "280px";
+    if (document.getElementById("content").style.paddingTop == "0px") {
+        document.getElementById("content").style.paddingTop = "180px";
     } else {
-        document.getElementById("content").style.paddingTop = "10px";
+        document.getElementById("content").style.paddingTop = "0px";
     }
 }
 
@@ -15,7 +15,7 @@ var text, parser, xmlDoc;
 text = "<index>" +
     "<lesson>" +
     "<title>Unity game</title>" +
-    "<url>Unitygame/unitygame.html</url>" +
+    "<url>unitygame.html</url>" +
     "</lesson>" +
     "<lesson>" +
     "<title> C# projects</title>" +
