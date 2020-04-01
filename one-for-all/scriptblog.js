@@ -19,15 +19,15 @@ text = "<index>" +
     "</lesson>" +
     "<lesson>" +
     "<title> C# projects</title>" +
-    "<url>indexblog.html</url>" +
+    "<url>csharp-project.html</url>" +
     "</lesson>" +
     "<lesson>" +
     "<title>Augmented Reality project</title>" +
-    "<url>indexblog.html</url>" +
+    "<url>ar-vr-project.html</url>" +
     "</lesson>" +
     "<lesson>" +
     "<title>Contributors</title>" +
-    "<url>indexblog.html</url>" +
+    "<url>contributors.html</url>" +
     "</lesson>" +
     "</index>";
 

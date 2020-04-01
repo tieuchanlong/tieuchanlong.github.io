@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <!-- Our Custom CSS -->
     <link rel="stylesheet" href="one-for-all/styleblog.css">
+    <link rel="stylesheet" href="unitygame-package/ug-style.css">
 
     <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
 
@@ -20,7 +21,7 @@
 
 <body>
     <div id="topbar">
-        <a href="indexblog.html">
+        <a href="index.html">
             <div style="background-color: #4A0E0B; color: whitesmoke; padding: 20px; font-family:Arial, Helvetica, sans-serif; text-align: center;">
                 <!-- <img style="border-radius: 50%; border: 3px solid white;" height="100" src="https://i.pinimg.com/originals/1d/b3/88/1db388f5ad379329887868ea47fa8651.jpg" alt="Avatar"> -->
                 <!-- <br></br> -->
@@ -30,7 +31,6 @@
 
         <div style="margin-top: 10px; text-align: center; color: white;">
         </div>
-
         <ul id="choiceList"></ul>
         <!-- <li> -->
         <!-- <a href="#">Home 1</a> -->
@@ -42,28 +42,57 @@
         <div style="margin-bottom: 10px;">
             <button id="btntoggle" type="button" class="btn mybtn">Toggle</button>
         </div>
-
         <div style="width: 300px; border-style: solid; border-width: thin; border-color: black; padding: 10px; margin-bottom: 10px;">
             <p style="text-align: center; margin-bottom: 2px;">Navigate</p>
             <a href="#game1">1. GAME 1</a>
             <br>
             <a href="#game2">2. GAME 2</a>
-        </div>
-
-        <div id="game1">
-            <p>Title : ONE NIGHT RISK</p>
-            <p> Screenshots</p>
-            <iframe src="https://simmer.io/@tieuchanlong/one-night-risk" style="width:400px;height:200px;border:0"></iframe>
+            <br>
+            <a href="#game3">3. GAME 3</a>
         </div>
         <br>
+        <hr style="border-color: black;">
+        <div id="game1">
+            <h1>GAME 1</h1>
+            <p>Title : ONE NIGHT RISK</p>
+            <p> Screenshots</p>
+            <button id="click1"> CLICK HERE TO PLAY THIS GAME </button>
+            <iframe id="game1demo" src="https://i.simmer.io/@tieuchanlong/one-night-risk" style="width:800px;height:500px;border-color:black;"></iframe>
+            <br>
+            <br>
+            <p>Please kindly refresh if the game is not working.</p>
+            <h3>OR</h3>
+            <a href="https://simmer.io/@tieuchanlong/one-night-risk" target="_blank"> You can find the game uploaded on this link with the comments/feedbacks</a>
+        </div>
+        <br>
+        <hr style="border-color: black;">
         <div id="game2">
-            <p>Title:</p>
+            <h1>GAME 2</h1>
+            <p>Title: U N OWEN</p>
             <p>Screenshots:</p>
-            <iframe src="https://i.simmer.io/@tieuchanlong/u-n-owen" style="width:960px;height:600px;border:0"></iframe>
+            <button id="click2"> CLICK HERE TO PLAY THIS GAME </button>
+            <iframe id="game2demo" src="https://i.simmer.io/@tieuchanlong/u-n-owen" style="width:800px;height:500px;border-color:black;"></iframe>
+            <br>
+            <br>
+            <p>Please kindly refresh if the game is not working.</p>
+            <h3>OR</h3>
+            <a href="<p>Please kindly refresh if the game is not working.</p>
+            <h3>OR</h3>
+            <a href="https://simmer.io/@tieuchanlong/u-n-owen" target="_blank"> You can find the game uploaded on this link with the comments/feedbacks</a>
+        </div>
+        <br>
+        <hr style="border-color: black;">
+        <div id="game3">
+            <h1>GAME 3</h1>
+            <p>Title: STR BUSINESS </p>
+            <p>Screenshots:</p>
+            <a href="https://tieuchanlong.itch.io/str-business" target="_blank"> CLICK HERE TO PLAY THIS GAME </a>
+            <!--<iframe id="game3demo" src="https://tieuchanlong.itch.io/str-business" style="width:1200px;height:600px;border-color:black;"></iframe>-->
         </div>
     </div>
 
     <script type="text/javascript" src="one-for-all/scriptblog.js"></script>
+    <script type="text/javascript" src="unitygame-package/ug-content.js"></script>
 </body>
 
 </html>
