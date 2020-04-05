@@ -14,6 +14,10 @@
 var text, parser, xmlDoc;
 text = "<index>" +
     "<lesson>" +
+    "<title>Home page</title>" +
+    "<url>https://tieuchanlong.github.io</url>" +
+    "</lesson>" +
+    "<lesson>" +
     "<title>Unity game</title>" +
     "<url>unitygame.html</url>" +
     "</lesson>" +
