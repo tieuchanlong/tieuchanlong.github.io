@@ -13,4 +13,14 @@
 #stealth-game {
 	margin-left: 400px;
 }
+h3{
+	margin-left:300px;
+}
+#project-role {
+	background-color: purple;
+	width: 300px;
+	padding:5px;
+	color: white;
+	text-align: center;
+}
 
