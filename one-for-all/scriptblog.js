@@ -33,6 +33,10 @@ text = "<index>" +
     "<title>Contributors</title>" +
     "<url>contributors.html</url>" +
     "</lesson>" +
+    "<lesson>" +
+    "<title>C++ projects</title>" +
+    "<url>cpp-projects.html</url>" +
+    "</lesson>" +
     "</index>";
 
 parser = new DOMParser();
