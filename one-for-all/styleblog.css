@@ -32,13 +32,13 @@
 #choiceList {
     padding-top:10px;
     list-style-type: none;
-    padding-left:30px;
+    padding-left:150px;
 }
 
     #choiceList li {
         //position: relative;
         //height: 100%;
-        width: 250px;
+        width: 220px;
         color: white;
         padding: 10px;
         padding-left: 10px;
