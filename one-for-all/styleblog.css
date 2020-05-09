@@ -16,11 +16,10 @@
     background-color: whitesmoke;
     height: 100%;
     width: 100%;
+    padding-left:5px;
+    padding-bottom:25em;
     z-index: 0;
     overflow-x: hidden;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
     transition: all 0.3s;
     font-family: 'Roboto', sans-serif;
 }
@@ -48,7 +47,7 @@
         #choiceList a:hover {
             color: white;
             TEXT-DECORATION: none;
-            font-weight: none
+            font-weight: none;
         }
 
 .mybtn {
@@ -66,7 +65,6 @@
     }
 
     #content {
-        position: fixed;
         padding-top: 180px;
     }
 
@@ -85,23 +83,27 @@
         #choiceList li {
             width: 220px;
         }
+    iframe {
+        height: 500px;
+        width: 1000px;
+    }
 }
 @media (max-width: 600px) {
     #topbar {
-        height: 360px;
+        height: 380px;
     }
 
     #content {
         float: left;
-        padding-top: 380px;
+        padding-top: 390px;
     }
 
     .topbarToggle {
-        margin-top: -360px;
+        margin-top: -380px;
     }
 
     .contentToggle {
-        margin-top: -360px;
+        margin-top: -380px;
     }
 
     #choiceList {
@@ -111,4 +113,12 @@
         #choiceList li {
             width: 100%;
         }
+    img{
+        height:250px;
+        width:350px;
+    }
+    iframe {
+        height: 350px;
+        width: 450px;
+    }
 }
