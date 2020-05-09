@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 #topbar {
-    //top: 0;
     background-color: #6C140B;
-    height: 160px;
     width: 100%;
     margin-left: 0;
     position: fixed;
@@ -18,45 +16,33 @@
     background-color: whitesmoke;
     height: 100%;
     width: 100%;
-    position: fixed;
     z-index: 0;
     overflow-x: hidden;
     padding-left: 10px;
     padding-right: 10px;
-    padding-top: 180px;
     padding-bottom: 10px;
     transition: all 0.3s;
     font-family: 'Roboto', sans-serif;
 }
 
 #choiceList {
-    padding-top:10px;
+    padding: 10px;
+    padding-top:25px;
     list-style-type: none;
-    padding-left:150px;
 }
 
     #choiceList li {
-        //position: relative;
-        //height: 100%;
-        width: 220px;
         color: white;
         padding: 10px;
-        padding-left: 10px;
-        //transition: all 0.3s;
-        float:left;
+        float: left;
     }
 
         #choiceList li:hover {
-            //position: relative;
             background-color: #4A0E0B;
-            //text-align: right;
         }
 
     #choiceList a {
         color: white;
-        //width: 100%;
-        //height: 100%;
-        //display: block;
     }
 
         #choiceList a:hover {
@@ -74,12 +60,55 @@
     MEDIAQUERIES
 ----------------------------------------------------- */
 
-@media (max-height: 768px) {
-    #topbar {
-        margin-bottom: -270px;
+@media (min-width: 768px) {
+    #topbar{
+        height:160px;
     }
 
     #content {
-        padding-bottom: 10px;
+        position: fixed;
+        padding-top: 180px;
     }
+
+    .topbarToggle{
+        margin-top:-160px;
+    }
+
+    .contentToggle{
+        margin-top:-160px;
+    }
+
+    #choiceList {
+        padding-left: 150px;
+    }
+
+        #choiceList li {
+            width: 220px;
+        }
+}
+@media (max-width: 600px) {
+    #topbar {
+        height: 360px;
+    }
+
+    #content {
+        float: left;
+        padding-top: 380px;
+    }
+
+    .topbarToggle {
+        margin-top: -360px;
+    }
+
+    .contentToggle {
+        margin-top: -360px;
+    }
+
+    #choiceList {
+        padding-left:0px;
+    }
+
+        #choiceList li {
+            width: 100%;
+        }
 }

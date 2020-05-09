@@ -1,15 +1,7 @@
-﻿document.getElementById("btntoggle").onclick = function () {
-    if (document.getElementById("topbar").style.marginTop == "-270px") {
-        document.getElementById("topbar").style.marginTop = "0px";
-    } else {
-        document.getElementById("topbar").style.marginTop = "-270px";
-    }
-    if (document.getElementById("content").style.paddingTop == "0px") {
-        document.getElementById("content").style.paddingTop = "180px";
-    } else {
-        document.getElementById("content").style.paddingTop = "0px";
-    }
-}
+﻿$("#btntoggle").click(function () {
+    $("#topbar").toggleClass("topbarToggle");
+    $("#content").toggleClass("contentToggle");
+});
 
 var text, parser, xmlDoc;
 text = "<index>" +
