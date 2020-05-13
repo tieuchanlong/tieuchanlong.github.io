@@ -18,16 +18,15 @@ text = "<index>" +
     "<url>csharp-project.html</url>" +
     "</lesson>" +
     "<lesson>" +
+    "<title>C++ projects</title>" +
+    "<url>cpp-projects.html</url>" +
+    "</lesson>" +
+    "<lesson>" +
     "<title>Augmented Reality project</title>" +
     "<url>ar-vr-project.html</url>" +
     "</lesson>" +
-    "<lesson>" +
     "<title>Contributors</title>" +
     "<url>contributors.html</url>" +
-    "</lesson>" +
-    "<lesson>" +
-    "<title>C++ projects</title>" +
-    "<url>cpp-projects.html</url>" +
     "</lesson>" +
     "</index>";
 
