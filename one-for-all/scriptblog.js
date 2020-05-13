@@ -10,7 +10,7 @@ text = "<index>" +
     "<url>https://tieuchanlong.github.io</url>" +
     "</lesson>" +
     "<lesson>" +
-    "<title>Unity game</title>" +
+    "<title>Unity games</title>" +
     "<url>unitygame.html</url>" +
     "</lesson>" +
     "<lesson>" +
