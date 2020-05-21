@@ -212,6 +212,15 @@
     }
 }
 
+@media (min-width: 768px) {
+
+
+    iframe {
+        height: 300px;
+        width: 400px;
+    }
+}
+
 #project-role {
     background-color: purple;
     width: 300px;
