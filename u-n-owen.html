@@ -1,54 +1,57 @@
-﻿<!DOCTYPE html>
-<html>
-
+﻿<!doctype html>
+<html lang="en">
 <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" type="image/png" href="one-for-all/favicon.png">
-    <title>My gaming blog</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <!-- Bootstrap CSS CDN -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous" />
-    <!-- Our Custom CSS -->
-    <link rel="stylesheet" href="one-for-all/styleblog.css">
-
-    <!--<link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet"> -->
-
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <title>Long Tieu's portfolio</title>
 </head>
-
 <body>
-    <div id="topbar">
-        <a href="https://tieuchanlong.github.io">
-            <div style="background-color: #4A0E0B; color: whitesmoke; padding: 10px; font-family:Arial, Helvetica, sans-serif; text-align: center;">
-                <!-- <img style="border-radius: 50%; border: 3px solid white;" height="100" src="https://i.pinimg.com/originals/1d/b3/88/1db388f5ad379329887868ea47fa8651.jpg" alt="Avatar"> -->
-                <!-- <br></br> -->
-                <h2>GAME DEVELOPMENT BLOG</h2>
+    <div style="background-color:black;text-align:center;color:white;padding:10px;">
+        <h2>LONG TIEU</h2>
+        <h3>Game Programming Portfolio</h3>
+    </div>
+    <ul class="nav nav-tabs navbar-light bg-light d-flex justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link active" href="portfolio.html">Active</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Projects</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="unitygame.html">Unity Games</a>
+                <a class="dropdown-item" href="cpp-projects.html">C++ Games</a>
+                <a class="dropdown-item" href="csharp-project.html">C# Project</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="ar-vr-project.html">Arguemented Reality Projects</a>
             </div>
-        </a>
-
-        <ul id="choiceList"></ul>
-    </div>
-
-    <div id="content">
-        <div style="margin-bottom: 10px;">
-            <button id="btntoggle" type="button" class="btn mybtn">Toggle</button>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="contributors.html">Contact me</a>
+        </li>
+    </ul>
+    <div class="jumbotron text-center">
+        <div class="col">
+            <h1>GAME 2</h1>
+            <p>Title: U N OWEN</p>
+            <iframe id="game2demo" src="https://i.simmer.io/@tieuchanlong/u-n-owen" style="border-color:black;display: block; margin-left: auto; margin-right: auto;height:500px;width:1000px;"></iframe>
+            <br>
+            <br>
+            <p>Please kindly refresh if the game is not working.</p>
+            <h3>Project resource</h3>
+            <a href="https://simmer.io/@tieuchanlong/u-n-owen" target="_blank">Original upload</a>
+            <br>
+            <a href="https://github.com/tieuchanlong/Game-with-Us-Jam-2020" target="_blank">Github upload</a>
         </div>
-        <h1>GAME 2</h1>
-        <p>Title: U N OWEN</p>
-        <iframe id="game2demo" src="https://i.simmer.io/@tieuchanlong/u-n-owen" style="border-color:black;display: block; margin-left: auto; margin-right: auto;"></iframe>
-        <br>
-        <br>
-        <p>Please kindly refresh if the game is not working.</p>
-        <h3>Project resource</h3>
-        <a href="https://simmer.io/@tieuchanlong/u-n-owen" target="_blank">Original upload</a>
-        <br>
-        <a href="https://github.com/tieuchanlong/Game-with-Us-Jam-2020" target="_blank">Github upload</a>
     </div>
 
-    <script type="text/javascript" src="one-for-all/scriptblog.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
-
 </html>

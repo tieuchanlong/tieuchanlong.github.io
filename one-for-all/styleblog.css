@@ -1,13 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+/*@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 
 #topbar {
     background-color: #6C140B;
     width: 100%;
     margin-left: 0;
-    position: fixed;
+    //position: fixed;
     z-index: 1;
     overflow-x: hidden;
-    transition: all 0.3s;
+    transition: all 0.7s;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -17,10 +18,11 @@
     height: 100%;
     width: 100%;
     padding-left:5px;
-    padding-bottom:25em;
+    padding-bottom:0;
+    margin-bottom:0;
     z-index: 0;
     overflow-x: hidden;
-    transition: all 0.3s;
+    transition: all 0.7s;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -57,23 +59,20 @@
 
 /* ---------------------------------------------------
     MEDIAQUERIES
------------------------------------------------------ */
+----------------------------------------------------- 
 
 @media (min-width: 768px) {
     #topbar{
         height:160px;
     }
 
-    #content {
-        padding-top: 180px;
-    }
 
-    .topbarToggle{
+    .bodyToggle{
         margin-top:-160px;
     }
 
-    .contentToggle{
-        margin-top:-160px;
+    .contentToggle {
+        height:100%;
     }
 
     #choiceList {
@@ -121,4 +120,104 @@
         height: 350px;
         width: 450px;
     }
+}*/
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+#topbar {
+    background-color: #696969;
+    width: 100%;
+    margin-left: 0;
+    //position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    transition: all 0.3s;
+    font-family: 'Roboto', sans-serif;
 }
+
+#content {
+    top: 0;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    padding-left: 5px;
+    z-index: 0;
+    overflow-x: hidden;
+    transition: all 0.3s;
+    font-family: 'Roboto', sans-serif;
+}
+
+#choiceList {
+    padding: 10px;
+    padding-top: 25px;
+    list-style-type: none;
+}
+
+    #choiceList li {
+        color: black;
+        padding: 10px;
+        float: left;
+    }
+
+        #choiceList li:hover {
+            background-color: #708090;
+        }
+
+    #choiceList a {
+        color: white;
+    }
+
+        #choiceList a:hover {
+            color: black;
+            TEXT-DECORATION: none;
+            font-weight: none;
+        }
+
+.mybtn {
+    border-color: gray;
+    border-thickness: 5;
+}
+
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+
+@media (min-width: 768px) {
+    #topbar {
+        height: 160px;
+    }
+
+    /*#content {
+        padding-top: 160px;
+    }*/
+
+    .topbarToggle {
+        margin-top: -160px;
+    }
+
+    .contentToggle {
+        margin-top: -160px;
+    }
+
+    #choiceList {
+        padding-left: 150px;
+    }
+
+        #choiceList li {
+            width: 220px;
+        }
+
+    iframe {
+        height: 500px;
+        width: 1000px;
+    }
+}
+
+#project-role {
+    background-color: purple;
+    width: 300px;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    margin-right: 10px;
+}
+

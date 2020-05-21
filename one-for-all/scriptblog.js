@@ -1,4 +1,7 @@
-﻿$("#btntoggle").click(function () {
+﻿/*$("#btntoggle").click(function () {
+    $("body").toggleClass("bodyToggle");
+});*/
+$("#btntoggle").click(function () {
     $("#topbar").toggleClass("topbarToggle");
     $("#content").toggleClass("contentToggle");
 });

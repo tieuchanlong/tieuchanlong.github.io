@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+﻿<!--<!DOCTYPE html>
 <html>
 
 <head>
@@ -9,12 +9,11 @@
     <link rel="icon" type="image/png" href="one-for-all/favicon.png">
     <title>My gaming blog</title>
 
-    <!-- Bootstrap CSS CDN -->
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous" />
-    <!-- Our Custom CSS -->
+
     <link rel="stylesheet" href="one-for-all/styleblog.css">
 
-    <!--<link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet"> -->
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 </head>
@@ -22,9 +21,7 @@
 <body>
     <div id="topbar" >
         <a href="https://tieuchanlong.github.io">
-            <div style="background-color: #4A0E0B; color: whitesmoke; padding: 10px; font-family:Arial, Helvetica, sans-serif; text-align: center;">
-                <!-- <img style="border-radius: 50%; border: 3px solid white;" height="100" src="https://i.pinimg.com/originals/1d/b3/88/1db388f5ad379329887868ea47fa8651.jpg" alt="Avatar"> -->
-                <!-- <br></br> -->
+            <div style="background-color: black; color: whitesmoke; padding: 10px; font-family:Arial, Helvetica, sans-serif; text-align: center;">
                 <h2>GAME DEVELOPMENT BLOG</h2>
             </div>
         </a>
@@ -33,19 +30,33 @@
     </div>
 
     <div id="content" >
-        <div style="display: block; margin-left: auto; margin-right: auto;">
-            <button id="btntoggle" type="button" class="btn mybtn">Toggle</button>
-            <br>
-            <div style="text-align:center;">
-                <h3>Tempest Remake</h3>
-                <p><img src="one-for-all/screenshots/TempestRemake.png" width="750" height="450"></p>
-                <a href="https://github.com/tieuchanlong/Tempest-Remake" target="_blank" style="text-decoration:none;color:black;border: 1px grey solid; width:200px;padding:5px;background-color:#F9F9F9;"> CLICK HERE TO VIEW THIS GAME </a>
+        <br>
+        <div style="display: block; margin-left: auto; margin-right: auto;margin-top:0;">
+            <div class="jumbojon row align-items-start" style="background-color:white;text-align:center;">
+                <div class="col">
+                    <h3>Tempest Remake</h3>
+                    <p><img src="one-for-all/screenshots/TempestRemake.png" width="500" height="300"></p>
+                </div>
+                <div class="col">
+                    <h3>About this game</h3>
+                    <p style="text-align:left;margin-left:100px;margin-right:100px;">
+                        This is a remake of the game called Tempest 1981 with additional features using OpenGL and Glut. This project is used for the Ubisoft Next 2020 Submission.
+                    </p>
+                    <button class="btn btn-danger" onclick=" window.open('https://github.com/tieuchanlong/Tempest-Remake','_blank')"> CLICK HERE TO VIEW THIS GAME </button>
+                </div>
             </div>
-            <br>
             <hr style="border-color:black;">
-            <div style="text-align:center;">
-                <h3>Typer-Shake Remake</h3>
-                <a href="https://github.com/tieuchanlong/TyperShark-Remake" target="_blank" style="text-decoration:none;color:black;border: 1px grey solid; width:200px;padding:5px;background-color:#F9F9F9;"> CLICK HERE TO VIEW THIS GAME </a>
+            <div class="jumbojon row align-items-start" style="background-color:white;text-align:center;padding-bottom:10px;">
+                <div class="col">
+                    <h3>Typer-Shark Remake</h3>
+                </div>
+                <div class="col">
+                    <h3>About this game</h3>
+                    <p style="text-align:left;margin-left:100px;margin-right:100px;">
+                        This is a C++ project for TyperShark Remake Game using OpenGL and Glut.
+                    </p>
+                    <button class="btn btn-danger" onclick=" window.open('https://github.com/tieuchanlong/TyperShark-Remake','_blank')"> CLICK HERE TO VIEW THIS GAME </button>
+                </div>
             </div>
         </div>
     </div>
@@ -53,4 +64,81 @@
     <script type="text/javascript" src="one-for-all/scriptblog.js"></script>
 </body>
 
+</html>-->
+<!doctype html>
+    <html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="icon" type="image/png" href="one-for-all/favicon.png">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="unitygame-package/ug-style.css">
+
+        <title>Long Tieu's portfolio</title>
+    </head>
+    <body>
+        <div style="background-color:black;text-align:center;color:white;padding:10px;">
+            <h2>LONG TIEU</h2>
+            <h3>Game Programming Portfolio</h3>
+        </div>
+        <ul class="nav nav-tabs navbar-light bg-light d-flex justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link" href="https://tieuchanlong.github.io/">Active</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Projects</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="unitygame.html">Unity Games</a>
+                    <a class="dropdown-item active" href="cpp-projects.html">C++ Games</a>
+                    <a class="dropdown-item" href="csharp-project.html">C# Project</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="ar-vr-project.html">Arguemented Reality Projects</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contributors.html">Contact me</a>
+            </li>
+        </ul>
+        <br>
+        <div class="jumbotron text-center">
+            <div class="row align-items-start">
+                <div class="col">
+                    <h3>Tempest Remake</h3>
+                    <p><img src="one-for-all/screenshots/TempestRemake.png" width="500" height="300"></p>
+                </div>
+                <div class="col">
+                    <h3>About this game</h3>
+                    <p style="text-align:left;margin-left:100px;margin-right:100px;">
+                        This is a remake of the game called Tempest 1981 with additional features using OpenGL and Glut. This project is used for the Ubisoft Next 2020 Submission.
+                    </p>
+                    <button class="btn btn-danger" onclick=" window.open('https://github.com/tieuchanlong/Tempest-Remake','_blank')"> CLICK HERE TO VIEW THIS GAME </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="jumbotron text-center">
+            <div class="row align-items-start">
+                <div class="col">
+                    <h3>Typer-Shark Remake</h3>
+                    <p><img src="one-for-all/screenshots/typershark_remake.png" width="500" height="300"></p>
+                </div>
+                <div class="col">
+                    <h3>About this game</h3>
+                    <p style="text-align:left;margin-left:100px;margin-right:100px;">
+                        This is a C++ project for TyperShark Remake Game using OpenGL and Glut.
+                    </p>
+                    <button class="btn btn-danger" onclick=" window.open('https://github.com/tieuchanlong/TyperShark-Remake','_blank')"> CLICK HERE TO VIEW THIS GAME </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
 </html>
